@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRUD Operation Test]">
+  <test thread-count="5" name="CRUD Automated Script(failed)">
+    <classes>
+      <class name="crud_test.CRUDoperation">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="EditRecipe"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- crud_test.CRUDoperation -->
+    </classes>
+  </test> <!-- CRUD Automated Script(failed) -->
+</suite> <!-- Failed suite [CRUD Operation Test] -->
