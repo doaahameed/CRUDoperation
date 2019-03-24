@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="CRUD Operation Test" duration-ms="32860" started-at="2019-03-24T11:15:13Z" finished-at="2019-03-24T11:15:46Z">
+  <suite name="CRUD Operation Test" duration-ms="32865" started-at="2019-03-24T11:56:12Z" finished-at="2019-03-24T11:56:45Z">
     <groups>
     </groups>
-    <test name="CRUD Automated Script" duration-ms="32860" started-at="2019-03-24T11:15:13Z" finished-at="2019-03-24T11:15:46Z">
+    <test name="CRUD Automated Script" duration-ms="32865" started-at="2019-03-24T11:56:12Z" finished-at="2019-03-24T11:56:45Z">
       <class name="crud_test.CRUDoperation">
-        <test-method status="PASS" signature="setup()[pri:0, instance:crud_test.CRUDoperation@47c62251]" name="setup" is-config="true" duration-ms="10057" started-at="2019-03-24T11:15:13Z" finished-at="2019-03-24T11:15:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:crud_test.CRUDoperation@47c62251]" name="setup" is-config="true" duration-ms="10331" started-at="2019-03-24T11:56:12Z" finished-at="2019-03-24T11:56:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateRecipe()[pri:1, instance:crud_test.CRUDoperation@47c62251]" name="CreateRecipe" duration-ms="11578" started-at="2019-03-24T11:15:24Z" finished-at="2019-03-24T11:15:35Z">
+        <test-method status="PASS" signature="CreateRecipe()[pri:1, instance:crud_test.CRUDoperation@47c62251]" name="CreateRecipe" duration-ms="11412" started-at="2019-03-24T11:56:22Z" finished-at="2019-03-24T11:56:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRecipe -->
-        <test-method status="FAIL" signature="EditRecipe()[pri:2, instance:crud_test.CRUDoperation@47c62251]" name="EditRecipe" duration-ms="7752" started-at="2019-03-24T11:15:35Z" finished-at="2019-03-24T11:15:43Z">
+        <test-method status="FAIL" signature="EditRecipe()[pri:2, instance:crud_test.CRUDoperation@47c62251]" name="EditRecipe" duration-ms="7689" started-at="2019-03-24T11:56:34Z" finished-at="2019-03-24T11:56:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Salad] but found [Coleslaw]]]>
@@ -60,11 +60,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditRecipe -->
-        <test-method status="PASS" signature="DeleteRecipe()[pri:3, instance:crud_test.CRUDoperation@47c62251]" name="DeleteRecipe" duration-ms="3217" started-at="2019-03-24T11:15:43Z" finished-at="2019-03-24T11:15:46Z">
+        <test-method status="PASS" signature="DeleteRecipe()[pri:3, instance:crud_test.CRUDoperation@47c62251]" name="DeleteRecipe" duration-ms="3201" started-at="2019-03-24T11:56:41Z" finished-at="2019-03-24T11:56:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteRecipe -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:crud_test.CRUDoperation@47c62251]" name="closeDriver" is-config="true" duration-ms="191" started-at="2019-03-24T11:15:46Z" finished-at="2019-03-24T11:15:46Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:crud_test.CRUDoperation@47c62251]" name="closeDriver" is-config="true" duration-ms="169" started-at="2019-03-24T11:56:45Z" finished-at="2019-03-24T11:56:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
